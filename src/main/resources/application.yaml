@@ -4,15 +4,11 @@ server:
 spring:
   profiles:
     default: local
-#  sql:
-#    init:
-#      mode: always
   threads:
     virtual:
       enabled: true
   datasource:
     driver-class-name: org.h2.Driver
-#    url: jdbc:h2:tcp://localhost/~/ohjtest
     url: jdbc:h2:mem:testdb
     username: sa
     password:
@@ -21,7 +17,6 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
       ddl-auto: create
-#      ddl-auto: update
     properties:
       hibernate:
         format_sql: true
