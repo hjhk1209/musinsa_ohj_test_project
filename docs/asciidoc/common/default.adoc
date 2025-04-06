@@ -1,0 +1,6 @@
+// 예시
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+include::{snippets}/common/default/common-response-fields.adoc[]

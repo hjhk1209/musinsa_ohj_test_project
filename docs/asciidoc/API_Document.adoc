@@ -1,0 +1,60 @@
+ifndef::indexroot[]
+:indexroot: ./docs/asciidoc
+:snippets: ../../../build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:toc: left
+:source-highlighter: highlightjs
+:toc-title: 무신사 백엔드 과제 API 목록
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:sectlinks:
+:sectanchors:
+:docinfo: shared-head
+:docinfodir: ./docs/asciidoc
+
+== Overview
+[NOTE]
+====
+- 무신사 백엔드 과제 API 정의서입니다.
+====
+
+== 공통
+[NOTE]
+====
+- API 공통 사항입니다.
+====
+include::{indexroot}/common/default.adoc[]
+
+== API 전문 규격
+=== 조회
+==== 구현1
+include::{indexroot}/fetch/summaryLowestPriceByCtgAndBrd.adoc[]
+
+==== 구현2
+include::{indexroot}/fetch/sumLowestPriceByBrd.adoc[]
+
+==== 구현3
+include::{indexroot}/fetch/highestPriceAndLowestPriceByCategoryNm.adoc[]
+
+=== 브랜드
+==== 브랜드등록
+include::{indexroot}/brand/createBrand.adoc[]
+
+==== 브랜드수정
+include::{indexroot}/brand/updateBrand.adoc[]
+
+==== 브랜드삭제
+include::{indexroot}/brand/deleteBrand.adoc[]
+
+=== 상품
+==== 상품등록
+include::{indexroot}/product/createProduct.adoc[]
+
+==== 상품수정
+include::{indexroot}/product/updateProduct.adoc[]
+
+==== 상품삭제
+include::{indexroot}/product/deleteProduct.adoc[]

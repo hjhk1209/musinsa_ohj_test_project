@@ -1,0 +1,23 @@
+// 예시
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+===== Info
+[NOTE]
+=====
+- 구현3
+- 특정 카테고리명에서 최저 및 최고가로 판매하는 브랜드들의 상품 현황을 조회하기 위한 API
+=====
+
+include::{snippets}/fetch/highestPriceAndLowestPriceByCategoryNm/query-parameters.adoc[]
+
+===== *Request*
+include::{snippets}/fetch/highestPriceAndLowestPriceByCategoryNm/curl-request.adoc[]
+
+include::{snippets}/fetch/highestPriceAndLowestPriceByCategoryNm/http-request.adoc[]
+
+===== *Response*
+include::{snippets}/fetch/highestPriceAndLowestPriceByCategoryNm/http-response.adoc[]
+
+include::{snippets}/fetch/highestPriceAndLowestPriceByCategoryNm/response-fields.adoc[]

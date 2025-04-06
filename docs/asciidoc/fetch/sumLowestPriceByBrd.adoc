@@ -1,0 +1,21 @@
+// 예시
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+===== Info
+[NOTE]
+=====
+- 구현2
+- 단일 브랜드에서 모든 카테고리 상품 합계가 최저가인 브랜드 및 각 카테고리 상품 가격, 총액을 조회하기 위한 API
+=====
+
+===== *Request*
+include::{snippets}/fetch/sumLowestPriceByBrd/curl-request.adoc[]
+
+include::{snippets}/fetch/sumLowestPriceByBrd/http-request.adoc[]
+
+===== *Response*
+include::{snippets}/fetch/sumLowestPriceByBrd/http-response.adoc[]
+
+include::{snippets}/fetch/sumLowestPriceByBrd/response-fields.adoc[]

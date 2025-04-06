@@ -1,0 +1,11 @@
+// 예시
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+= API Document
+:doctype: book
+:icons: font
+
+[[order_apprv_type_code]]
+include::{snippets}/common/code/custom-pop-response-fields-responseCodeMap.adoc[]

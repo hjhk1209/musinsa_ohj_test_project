@@ -1,0 +1,24 @@
+// 예시
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+===== Info
+[NOTE]
+=====
+- 상품 등록
+=====
+
+include::{snippets}/product/createProduct/path-parameters.adoc[]
+
+===== *Request*
+include::{snippets}/product/createProduct/curl-request.adoc[]
+
+include::{snippets}/product/createProduct/http-request.adoc[]
+
+include::{snippets}/product/createProduct/request-fields.adoc[]
+
+===== *Response*
+include::{snippets}/product/createProduct/http-response.adoc[]
+
+include::{snippets}/product/createProduct/response-fields.adoc[]

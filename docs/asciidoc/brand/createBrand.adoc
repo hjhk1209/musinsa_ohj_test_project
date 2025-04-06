@@ -1,0 +1,22 @@
+// 예시
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+===== Info
+[NOTE]
+=====
+- 브랜드 등록
+=====
+
+===== *Request*
+include::{snippets}/brand/createBrand/curl-request.adoc[]
+
+include::{snippets}/brand/createBrand/http-request.adoc[]
+
+include::{snippets}/brand/createBrand/request-fields.adoc[]
+
+===== *Response*
+include::{snippets}/brand/createBrand/http-response.adoc[]
+
+include::{snippets}/brand/createBrand/response-fields.adoc[]
