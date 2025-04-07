@@ -68,37 +68,37 @@ dt - datetime
 ~~~
 - category - 카테고리 테이블
 
-  | Column | Data Type | Constraints | Not Null | Comment |
-      |:------:|:------:|:-------:|:----:|:---------:|
-  | category_seq | BIGINT | PK | Y | category_seq 시퀀스 |
-  | category_nm | VARCHAR | | Y | 카테고리명 |
-  | create_dt | DATETIME | | Y | 등록일 |
-  | create_id | VARCHAR | | Y | 등록ID |
-  | update_dt | DATETIME | | | 수정일 |
-  | update_id | VARCHAR | | | 수정ID |
+| Column | Data Type | Constraints | Not Null | Comment |
+|:------:|:------:|:-------:|:----:|:---------:|
+| category_seq | BIGINT | PK | Y | category_seq 시퀀스 |
+| category_nm | VARCHAR | | Y | 카테고리명 |
+| create_dt | DATETIME | | Y | 등록일 |
+| create_id | VARCHAR | | Y | 등록ID |
+| update_dt | DATETIME | | | 수정일 |
+| update_id | VARCHAR | | | 수정ID |
 
 - brand - 브랜드 테이블
 
-  | Column | Data Type | Constraints | Not Null | Comment |
-      |:------:|:------:|:-------:|:----:|:---------:|
-  | brand_seq | BIGINT | PK | Y | brand_seq 시퀀스 |
-  | brand_nm | VARCHAR | | Y | 브랜드명 |
-  | create_dt | DATETIME | | Y | 등록일 |
-  | create_id | VARCHAR | | Y | 등록ID |
-  | update_dt | DATETIME | | | 수정일 |
-  | update_id | VARCHAR | | | 수정ID |
+| Column | Data Type | Constraints | Not Null | Comment |
+|:------:|:------:|:-------:|:----:|:---------:|
+| brand_seq | BIGINT | PK | Y | brand_seq 시퀀스 |
+| brand_nm | VARCHAR | | Y | 브랜드명 |
+| create_dt | DATETIME | | Y | 등록일 |
+| create_id | VARCHAR | | Y | 등록ID |
+| update_dt | DATETIME | | | 수정일 |
+| update_id | VARCHAR | | | 수정ID |
 
 - product - 상품 테이블
 
-  | Column | Data Type | Constraints | Not Null | Comment |
-      |:------:|:------:|:-------:|:----:|:---------:|
-  | product_seq | BIGINT | PK | Y | product_seq 시퀀스 |
-  | brand_seq | BIGINT | | Y | brand.brand_seq |
-  | category_seq | BIGINT | | Y | category.category_seq |
-  | product_nm | VARCHAR | | Y | 상품명 |
-  | product_price | BIGINT | | Y | 상품가격 |
-  | create_dt | DATETIME | | Y | 등록일 |
-  | create_id | VARCHAR | | Y | 등록ID |
-  | update_dt | DATETIME | | | 수정일 |
-  | update_id | VARCHAR | | | 수정ID |
+| Column | Data Type | Constraints | Not Null | Comment |
+|:------:|:------:|:-------:|:----:|:---------:|
+| product_seq | BIGINT | PK | Y | product_seq 시퀀스 |
+| brand_seq | BIGINT | | Y | brand.brand_seq |
+| category_seq | BIGINT | | Y | category.category_seq |
+| product_nm | VARCHAR | | Y | 상품명 |
+| product_price | BIGINT | | Y | 상품가격 |
+| create_dt | DATETIME | | Y | 등록일 |
+| create_id | VARCHAR | | Y | 등록ID |
+| update_dt | DATETIME | | | 수정일 |
+| update_id | VARCHAR | | | 수정ID |
 
