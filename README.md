@@ -17,7 +17,7 @@
 - h2 db (메모리 기반에서 동작하도록 함)
 - gradle-8.13
 
-### 실행환경
+### 실행 및 환경
 ~~~
 실행방법 : ./gradlew clean build 실행 후 
 java -jar ./build/libs/ohj-0.0.1-SNAPSHOT.jar를 실행하면 됩니다
